@@ -9,6 +9,7 @@ Run these commands on the terminal:
   # install the requirements into the virtual environment.
   pip install -r requirements.txt
 
+  # generate content
   hyde gen
 
   # start the dev server and browse to http://localhost:8080
