@@ -3,4 +3,4 @@ mode: production
 publisher:
     s3:
         type: hyde.ext.publishers.pyfs.PyFS
-        url: s3://indydjango
+        url: s3://www.indydjango.com
