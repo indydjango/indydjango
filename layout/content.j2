@@ -1,0 +1,24 @@
+{# Columns template #}
+
+{% extends "topbar.j2" %}
+
+{% block basecss %}
+{{ super() }}
+<link href="{{ media_url('css/columns.css') }}" rel="stylesheet">
+{% endblock basecss %}
+
+
+{% block content %}
+
+<div class="row-fluid">
+  <div class="fill">
+      {% filter markdown -%}
+      {% block main %}{% endblock %}
+      {%- endfilter %}
+  </div>
+</div>
+
+{% endblock content %}
+
+
+
